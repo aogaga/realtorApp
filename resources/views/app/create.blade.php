@@ -20,7 +20,7 @@
         <div class="col-6 offset-md-3">
             {{ Form::open(array('url' => '')) }}
             @honeypot
-            @captcha
+{{--            @captcha--}}
                 <div class="row g-3">
                     <div class="col">
                         {{Form::label('fname', 'First name', ['class' => 'form-label'])}}
